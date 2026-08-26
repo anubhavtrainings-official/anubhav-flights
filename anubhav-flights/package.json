@@ -1,0 +1,16 @@
+{
+  "name": "anubhav-flights",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@capire/xflights-data": "^1.2.6",
+    "@sap/cds": "^10"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^3"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "private": true
+}
