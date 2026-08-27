@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "dependencies": {
+    "@cap-js/mcp": "^1.4.3",
     "@capire/xflights-data": "^1.2.6",
     "@sap/cds": "^10"
   },

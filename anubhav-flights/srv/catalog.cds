@@ -18,3 +18,6 @@ service CatalogService @(path:'CatalogService'){
         ID, type, descr, price, currency, modifiedAt
     }
 }
+
+annotate CatalogService with @mcp;
+annotate CatalogService with @odata @hcql @rest;
