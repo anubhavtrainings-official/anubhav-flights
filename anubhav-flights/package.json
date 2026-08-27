@@ -10,6 +10,13 @@
   "devDependencies": {
     "@cap-js/sqlite": "^3"
   },
+  "cds":{
+    "mcp":{
+      "per_action_tool": true,
+      "prefix": false,
+      "format": "cql"
+    }
+  },
   "scripts": {
     "start": "cds-serve"
   },
